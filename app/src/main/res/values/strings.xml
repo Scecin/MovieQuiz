@@ -1,0 +1,64 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for titles -->
+    <string name="title_1" translatable="false">Movie Quiz</string>
+    <string name="title_2">How much do you know about movies?</string>
+
+    <!-- Strings for question number one -->
+    <string name="question_1">1. What is the name of the leading couple in Grease?</string>
+    <string name="mary_and_peter" translatable="false">Mary and Peter</string>
+    <string name="olivia_and_john" translatable="false">Olivia and John</string>
+    <string name="danny_and_sandy" translatable="false">Danny and Sandy</string>
+
+    <!-- Strings for question number two -->
+    <string name="question_2">2. Who is the director of Pulp Fiction?</string>
+    <string name="name">Name</string>
+    <string name="name_director_tarantino" translatable="false">QUENTIN TARANTINO</string>
+
+    <!-- Strings for question number three -->
+    <string name="question_3">3. Which of the following films has Steven Spielberg directed?</string>
+    <string name="ready_player_one" translatable="false">Ready player one</string>
+    <string name="jaws">Jaws</string>
+    <string name="the_wolf_of_wall_street">The wolf of Wall Street</string>
+    <string name="avatar" translatable="false">Avatar</string>
+    <string name="e_t" translatable="false">E.T</string>
+    <string name="the_lord_of_the_ring">The lord of the ring</string>
+
+    <!-- Strings for question number four -->
+    <string name="question_4">4. What movie is this phrase from? Hello. My name is Inigo Motoya. You killed my father. Prepare to die.</string>
+    <string name="movie">Movie</string>
+    <string name="name_movie_the_princess_bride">THE PRINCESS BRIDE</string>
+
+    <!-- Strings for question number five -->
+    <string name="question_5">5. How many Oscars has Pedro Almodovar won?</string>
+    <string name="three">Three</string>
+    <string name="two">Two</string>
+    <string name="one">One</string>
+
+    <!-- Strings for question number six -->
+    <string name="question_6">6. Which of the following films has won the most Oscars??</string>
+    <string name="all_three_have_won_the_same">All three have won the same</string>
+    <string name="titanic" translatable="false">Titanic</string>
+    <string name="ben_hur" translatable="false">Ben-Hur</string>
+
+    <!-- Strings for question number seven -->
+    <string name="question_7">7. Which of the following films has Woody Allen directed?</string>
+    <string name="parasite">Parasite</string>
+    <string name="la_la_land" translatable="false">La la land</string>
+    <string name="midnight_in_paris">Midnight in Paris</string>
+    <string name="vicky_cristina_barcelona" translatable="false">Vicky Cristina Barcelona</string>
+    <string name="roma" translatable="false">Roma</string>
+    <string name="manhattan" translatable="false">Manhattan</string>
+
+    <!-- Strings for question number eight -->
+    <string name="question_8">8. What movie is this image from?</string>
+    <string name="name_movie_the_godfather">THE GODFATHER</string>
+
+    <string name="app_name">Guess the Movie Quiz</string>
+    <string name="toast_message">Try again!</string>
+    <string name="perfect_answer">Perfect answer!</string>
+    <string name="solution">The number of correct questions is: <xliff:g id="scoreTotal" example="8" /></string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="well_done">Well done!! Would you like to repeat?</string>
+    <string name="_" translatable="false" />
+
+</resources>

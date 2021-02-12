@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Guess the Movie Quiz</string>
+    <string name="title_2">¿Cuánto sabes asobre cine?</string>
+    <string name="question_1">1. ¿Cuál es la nombre de la pareja protagonista de Grease?</string>
+    <string name="name">Nombre</string>
+    <string name="question_2">2. ¿Quién es el director de Pulp Fiction?</string>
+    <string name="question_3">3. ¿Cuál de las siguientes películas ha sido dirigida por Steven Spielberg?</string>
+    <string name="jaws">Tiburón</string>
+    <string name="the_wolf_of_wall_street">El lobo de Wall Street</string>
+    <string name="the_lord_of_the_ring">El señor de los anillos</string>
+    <string name="question_4">4. ¿De qué película es la frase, Hola. Mi nombre es Iñigo Motoya. Tu mataste a mi padre. Preparate a morir?</string>
+    <string name="movie">Película</string>
+    <string name="name_movie_the_princess_bride">LA PRINCESA PROMETIDA</string>
+    <string name="question_5">5. ¿Cuántos Oscars ha ganado Pedro Almodovar?</string>
+    <string name="three">Tres</string>
+    <string name="two">Dos</string>
+    <string name="one">Uno</string>
+    <string name="question_6">6. ¿Cuál de las siguientes películas ha ganado más Oscars?</string>
+    <string name="all_three_have_won_the_same">Las tres han ganado los mismos</string>
+    <string name="question_7">7. ¿Cuál de las siguientes películas ha dirigido Woody Allen?</string>
+    <string name="parasite">Parásitos</string>
+    <string name="midnight_in_paris">Medianoceh en París.</string>
+    <string name="question_8">8. ¿De qué película es esta imagen?</string>
+    <string name="name_movie_the_godfather">EL PADRINO</string>
+    <string name="solution">El número de respuestas correctas es: <xliff:g id="scoreTotal" example="8" /></string>
+    <string name="submit_answers">Comprobar Respuestas</string>
+    <string name="well_done">¡Bien hecho!¿Quieres repetir? </string>
+    <string name="toast_message">¡Intentalo de nuevo!</string>
+    <string name="perfect_answer">¡Respuesta perfecta!</string>
+
+</resources>

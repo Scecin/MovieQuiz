@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    !-- Style for Titles -->
+    <style name="titles">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#7e57c2</item>
+    </style>
+
+    <!-- Style for RadioButtons -->
+    <style name="RadioButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+    </style>
+
+    <!-- Style for questions -->
+    <style name="questions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#37474f</item>
+    </style>
+
+    <!-- Style for EditText -->
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textCapCharacters</item>
+    </style>
+
+    <!-- Style for CheckBox -->
+    <style name="checkBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+    </style>
+
+    <!-- Style for separating line -->
+    <style name="separatingLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#ff77a9</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+    </style>
+
+</resources>

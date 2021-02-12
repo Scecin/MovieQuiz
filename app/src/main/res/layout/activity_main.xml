@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/titles"
+            android:layout_marginTop="16dp"
+            android:text="@string/title_1"
+            android:textAllCaps="true"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/titles"
+            android:layout_marginBottom="16dp"
+            android:text="@string/title_2"
+            android:textSize="21sp" />
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_1" />
+
+        <RadioGroup
+            android:id="@+id/first_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/danny_sandy_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/danny_and_sandy" />
+
+            <RadioButton
+                android:id="@+id/olivia_john_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/olivia_and_john" />
+
+            <RadioButton
+                android:id="@+id/mary_peter_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/mary_and_peter" />
+        </RadioGroup>
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_2" />
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            style="@style/editText"
+            android:hint="@string/name" />
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_3" />
+
+        <CheckBox
+            android:id="@+id/et_check_box"
+            style="@style/checkBox"
+            android:text="@string/e_t" />
+
+        <CheckBox
+            android:id="@+id/avatar_check_box"
+            style="@style/checkBox"
+            android:text="@string/avatar" />
+
+        <CheckBox
+            android:id="@+id/the_wolf_of_wall_street_check_box"
+            style="@style/checkBox"
+            android:text="@string/the_wolf_of_wall_street" />
+
+        <CheckBox
+            android:id="@+id/jaws_check_box"
+            style="@style/checkBox"
+            android:text="@string/jaws" />
+
+        <CheckBox
+            android:id="@+id/ready_player_one_check_box"
+            style="@style/checkBox"
+            android:text="@string/ready_player_one" />
+
+        <CheckBox
+            android:id="@+id/the_lord_of_the_ring_check_box"
+            style="@style/checkBox"
+            android:text="@string/the_lord_of_the_ring" />
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_4" />
+
+        <EditText
+            android:id="@+id/name_of_film_question_four"
+            style="@style/editText"
+            android:hint="@string/movie" />
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_5" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/one_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/one" />
+
+            <RadioButton
+                android:id="@+id/two_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/two" />
+
+            <RadioButton
+                android:id="@+id/three_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/three" />
+
+        </RadioGroup>
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_6" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/the_lord_of_the_ring_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/the_lord_of_the_ring" />
+
+            <RadioButton
+                android:id="@+id/ben_hur_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/ben_hur" />
+
+            <RadioButton
+                android:id="@+id/titanic_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/titanic" />
+
+            <RadioButton
+                android:id="@+id/all_three_radio_button"
+                style="@style/RadioButtons"
+                android:text="@string/all_three_have_won_the_same" />
+
+        </RadioGroup>
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_7" />
+
+        <CheckBox
+            android:id="@+id/manhattan_check_box"
+            style="@style/checkBox"
+            android:text="@string/manhattan" />
+
+        <CheckBox
+            android:id="@+id/roma_check_box"
+            style="@style/checkBox"
+            android:text="@string/roma" />
+
+        <CheckBox
+            android:id="@+id/vicky_cristina_barcelona_check_box"
+            style="@style/checkBox"
+            android:text="@string/vicky_cristina_barcelona" />
+
+        <CheckBox
+            android:id="@+id/midnight_in_paris_check_box"
+            style="@style/checkBox"
+            android:text="@string/midnight_in_paris" />
+
+        <CheckBox
+            android:id="@+id/la_la_lan_check_box"
+            style="@style/checkBox"
+            android:text="@string/la_la_land" />
+
+        <CheckBox
+            android:id="@+id/parasite_check_box"
+            style="@style/checkBox"
+            android:text="@string/parasite" />
+
+        <View style="@style/separatingLine" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question_8" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/hqdefault" />
+
+        <EditText
+            android:id="@+id/name_of_film_question_seven"
+            style="@style/editText"
+            android:hint="@string/movie" />
+
+        <View style="@style/separatingLine"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/_"
+            android:textColor="#37474f"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#7e57c2"
+            android:onClick="submitAnswer"
+            android:padding="16dp"
+            android:text="@string/submit_answers"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+</ScrollView>
